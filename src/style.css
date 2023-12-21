@@ -1,0 +1,21 @@
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+button::before {
+  content: attr(data-count);
+  background-color: red;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.7em;
+  min-height: 1.7em;
+  position: absolute;
+  left: 55px;
+  border-radius: 50%;
+}
