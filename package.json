@@ -1,0 +1,20 @@
+{
+  "name": "notification-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open-html": "node ./src/openHtml.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabelaomaciel/notification-discord.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabelaomaciel/notification-discord/issues"
+  },
+  "homepage": "https://github.com/isabelaomaciel/notification-discord#readme"
+}
